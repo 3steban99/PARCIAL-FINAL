@@ -1,0 +1,1466 @@
+{
+  "Productos": [
+    {
+      "id": 1,
+      "nombre": "Coca2L",
+      "precio": 230
+    },
+    {
+      "id": 2,
+      "nombre": "Pepsi2L",
+      "precio": 220
+    },
+    {
+      "nombre": "Quilmes 1L",
+      "precio": "270",
+      "id": 4
+    }
+  ],
+  "FormaDePago": [
+    {
+      "id": 1,
+      "descripcion": "Tarjeta",
+      "interes": 15
+    },
+    {
+      "id": 2,
+      "descripcion": "Contado",
+      "interes": 0
+    }
+  ],
+  "Factura": [
+    {
+      "id": 1,
+      "fecha": "22-05-2022",
+      "formaPagoId": 2,
+      "descuento": 25
+    },
+    {
+      "fecha": "21/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 2
+    },
+    {
+      "fecha": "21/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 3
+    },
+    {
+      "fecha": "21/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 4
+    },
+    {
+      "fecha": "21/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 5
+    },
+    {
+      "fecha": "21/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 6
+    },
+    {
+      "fecha": "21/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 7
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 8
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 9
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 10
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 11
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 12
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 13
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 14
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 15
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 16
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 17
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 18
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 19
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 20
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 21
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 22
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 23
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 24
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 25
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 26
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 27
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 28
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 29
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 30
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 31
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 32
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 33
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 34
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 35
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 36
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 37
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 38
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 39
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 40
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 41
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 42
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 43
+    },
+    {
+      "fecha": "23/6/2022",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 44
+    },
+    {
+      "fecha": "22/2/2023",
+      "formaPagoId": 1,
+      "descuento": 0,
+      "id": 45
+    }
+  ],
+  "DetalleFactura": [
+    {
+      "id": 1,
+      "productoId": 2,
+      "cantidad": 3,
+      "monto": 660,
+      "facturaId": 1
+    },
+    {
+      "productoId": 1,
+      "cantidad": "8",
+      "monto": 1840,
+      "facturaId": 2,
+      "id": 2
+    },
+    {
+      "productoId": 2,
+      "cantidad": "8",
+      "monto": 1760,
+      "facturaId": 2,
+      "id": 3
+    },
+    {
+      "productoId": 1,
+      "cantidad": "1",
+      "monto": 230,
+      "facturaId": 2,
+      "id": 4
+    },
+    {
+      "productoId": 2,
+      "cantidad": "1",
+      "monto": 220,
+      "facturaId": 2,
+      "id": 5
+    },
+    {
+      "productoId": 3,
+      "cantidad": "1",
+      "monto": 50,
+      "facturaId": 2,
+      "id": 6
+    },
+    {
+      "productoId": 3,
+      "cantidad": "8",
+      "monto": 400,
+      "facturaId": 2,
+      "id": 7
+    },
+    {
+      "productoId": 1,
+      "cantidad": "5",
+      "monto": 1150,
+      "facturaId": 3,
+      "id": 8
+    },
+    {
+      "productoId": 4,
+      "cantidad": "1",
+      "monto": 270,
+      "facturaId": 3,
+      "id": 9
+    },
+    {
+      "productoId": 2,
+      "cantidad": "5",
+      "monto": 1100,
+      "facturaId": 3,
+      "id": 10
+    },
+    {
+      "productoId": 1,
+      "cantidad": "5",
+      "monto": 1150,
+      "id": 11
+    },
+    {
+      "productoId": 4,
+      "cantidad": "5",
+      "monto": 1350,
+      "id": 12
+    },
+    {
+      "productoId": 2,
+      "cantidad": "5",
+      "monto": 1100,
+      "id": 13
+    },
+    {
+      "productoId": 4,
+      "cantidad": "1",
+      "monto": 270,
+      "id": 14
+    },
+    {
+      "productoId": 1,
+      "cantidad": "5",
+      "monto": 1150,
+      "id": 15
+    },
+    {
+      "productoId": 1,
+      "cantidad": "1",
+      "monto": 230,
+      "id": 16
+    },
+    {
+      "productoId": 1,
+      "cantidad": "1",
+      "monto": 230,
+      "id": 17
+    },
+    {
+      "productoId": 2,
+      "cantidad": "1",
+      "monto": 220,
+      "id": 18
+    },
+    {
+      "productoId": 4,
+      "cantidad": "1",
+      "monto": 270,
+      "id": 19
+    },
+    {
+      "productoId": 1,
+      "cantidad": "5",
+      "monto": 1150,
+      "id": 20
+    },
+    {
+      "productoId": 1,
+      "cantidad": "1",
+      "monto": 230,
+      "id": 21
+    },
+    {
+      "productoId": 4,
+      "cantidad": "1",
+      "monto": 270,
+      "id": 22
+    },
+    {
+      "productoId": 1,
+      "cantidad": "1",
+      "monto": 230,
+      "id": 23
+    },
+    {
+      "productoId": 1,
+      "cantidad": "5",
+      "monto": 1150,
+      "id": 24
+    },
+    {
+      "productoId": 2,
+      "cantidad": "1",
+      "monto": 220,
+      "id": 25
+    },
+    {
+      "productoId": 1,
+      "cantidad": "5",
+      "monto": 1150,
+      "id": 26
+    },
+    {
+      "productoId": 1,
+      "cantidad": "5",
+      "monto": 1150,
+      "id": 27
+    },
+    {
+      "productoId": 1,
+      "cantidad": "1",
+      "monto": 230,
+      "id": 28
+    },
+    {
+      "productoId": 2,
+      "cantidad": "5",
+      "monto": 1100,
+      "id": 29
+    },
+    {
+      "monto": null,
+      "facturaId": 8,
+      "id": 30
+    },
+    {
+      "monto": null,
+      "facturaId": 8,
+      "id": 31
+    },
+    {
+      "productoId": 2,
+      "monto": null,
+      "facturaId": 9,
+      "id": 32
+    },
+    {
+      "productoId": 4,
+      "monto": null,
+      "facturaId": 9,
+      "id": 33
+    },
+    {
+      "productoId": 4,
+      "monto": null,
+      "facturaId": 9,
+      "id": 34
+    },
+    {
+      "productoId": 2,
+      "monto": null,
+      "facturaId": 9,
+      "id": 35
+    },
+    {
+      "productoId": 2,
+      "monto": null,
+      "facturaId": 9,
+      "id": 36
+    },
+    {
+      "productoId": 2,
+      "monto": null,
+      "facturaId": 9,
+      "id": 37
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 10,
+      "id": 38
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 10,
+      "id": 39
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 10,
+      "id": 40
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 10,
+      "id": 41
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 10,
+      "id": 42
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 10,
+      "id": 43
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 10,
+      "id": 44
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 10,
+      "id": 45
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 10,
+      "id": 46
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 10,
+      "id": 47
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 10,
+      "id": 48
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 10,
+      "id": 49
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 11,
+      "id": 50
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 11,
+      "id": 51
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 11,
+      "id": 52
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 11,
+      "id": 53
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 11,
+      "id": 54
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 11,
+      "id": 55
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 11,
+      "id": 56
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 11,
+      "id": 57
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 11,
+      "id": 58
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 11,
+      "id": 59
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 11,
+      "id": 60
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 11,
+      "id": 61
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 12,
+      "id": 62
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 12,
+      "id": 63
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 12,
+      "id": 64
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 12,
+      "id": 65
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 12,
+      "id": 66
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 12,
+      "id": 67
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 12,
+      "id": 68
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 12,
+      "id": 69
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 12,
+      "id": 70
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 12,
+      "id": 71
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 12,
+      "id": 72
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 12,
+      "id": 73
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 12,
+      "id": 74
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 12,
+      "id": 75
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 12,
+      "id": 76
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 13,
+      "id": 77
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 13,
+      "id": 78
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 13,
+      "id": 79
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 13,
+      "id": 80
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 13,
+      "id": 81
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 13,
+      "id": 82
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 13,
+      "id": 83
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 13,
+      "id": 84
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 13,
+      "id": 85
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 13,
+      "id": 86
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 13,
+      "id": 87
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 13,
+      "id": 88
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 13,
+      "id": 89
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 13,
+      "id": 90
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 13,
+      "id": 91
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 14,
+      "id": 92
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 93
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 14,
+      "id": 94
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 14,
+      "id": 95
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 96
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 14,
+      "id": 97
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 14,
+      "id": 98
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 99
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 14,
+      "id": 100
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 14,
+      "id": 101
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 14,
+      "id": 102
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 14,
+      "id": 103
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 14,
+      "id": 104
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 14,
+      "id": 105
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 106
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 14,
+      "id": 107
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 13,
+      "id": 108
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 13,
+      "id": 109
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 13,
+      "id": 110
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 13,
+      "id": 111
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 112
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 113
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 114
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 14,
+      "id": 115
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 14,
+      "id": 116
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 117
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 14,
+      "id": 118
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 15,
+      "id": 119
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 15,
+      "id": 120
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 15,
+      "id": 121
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 15,
+      "id": 122
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 15,
+      "id": 123
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 15,
+      "id": 124
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 15,
+      "id": 125
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 15,
+      "id": 126
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 15,
+      "id": 127
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 15,
+      "id": 128
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 15,
+      "id": 129
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 15,
+      "id": 130
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 15,
+      "id": 131
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 15,
+      "id": 132
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 15,
+      "id": 133
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 15,
+      "id": 134
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 15,
+      "id": 135
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 15,
+      "id": 136
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 15,
+      "id": 137
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 16,
+      "id": 138
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 16,
+      "id": 139
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 16,
+      "id": 140
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 16,
+      "id": 141
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 142
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 143
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 16,
+      "id": 144
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 16,
+      "id": 145
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 146
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 16,
+      "id": 147
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 16,
+      "id": 148
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 149
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 16,
+      "id": 150
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 16,
+      "id": 151
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 152
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 16,
+      "id": 153
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 154
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 155
+    },
+    {
+      "productoId": 2,
+      "cantidad": 6,
+      "monto": 1320,
+      "facturaId": 16,
+      "id": 156
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 157
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 158
+    },
+    {
+      "productoId": 1,
+      "cantidad": 6,
+      "monto": 1380,
+      "facturaId": 16,
+      "id": 159
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 160
+    },
+    {
+      "productoId": 4,
+      "cantidad": 6,
+      "monto": 1620,
+      "facturaId": 16,
+      "id": 161
+    },
+    {
+      "productoId": 1,
+      "cantidad": 5,
+      "monto": 1150,
+      "facturaId": 44,
+      "id": 162
+    },
+    {
+      "productoId": 2,
+      "cantidad": 5,
+      "monto": 1100,
+      "facturaId": 44,
+      "id": 163
+    },
+    {
+      "productoId": 4,
+      "cantidad": 5,
+      "monto": 1350,
+      "facturaId": 44,
+      "id": 164
+    },
+    {
+      "productoId": 2,
+      "cantidad": 5,
+      "monto": 1100,
+      "facturaId": 44,
+      "id": 165
+    },
+    {
+      "productoId": 1,
+      "cantidad": 5,
+      "monto": 1150,
+      "facturaId": 44,
+      "id": 166
+    },
+    {
+      "productoId": 1,
+      "cantidad": 5,
+      "monto": 1150,
+      "facturaId": 44,
+      "id": 167
+    },
+    {
+      "productoId": 1,
+      "cantidad": 2,
+      "monto": 460,
+      "facturaId": 45,
+      "id": 168
+    },
+    {
+      "productoId": 2,
+      "cantidad": 8,
+      "monto": 1760,
+      "facturaId": 45,
+      "id": 169
+    },
+    {
+      "productoId": 4,
+      "cantidad": 10,
+      "monto": 2700,
+      "facturaId": 45,
+      "id": 170
+    }
+  ]
+}

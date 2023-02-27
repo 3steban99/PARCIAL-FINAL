@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root {
+    --primary-color: white;
+    --secondory-color: rgb(61, 68, 73);
+    --highlight-color: #3282b8;
+
+    --dt-padding: 12px;
+    --dt-padding-s: 6px;
+    --dt-padding-xs: 2px;
+
+    --dt-border-radius: 3px;
+
+    --dt-background-color-container: #2a3338;
+
+    --dt-border-color: var(--secondory-color);
+    --dt-bg-color: var(--highlight-color);
+    --dt-text-color: var(--primary-color);
+    --dt-bg-active-butoon: var(--highlight-color);
+    --dt-text-color-button: var(--primary-color);
+    --dt-text-color-active-button: var(--primary-color);
+    --dt-hover-cell-color: var(--highlight-color);
+    --dt-even-row-color: var(--secondory-color);
+    --dt-focus-color: var(--highlight-color);
+    --dt-input-background-color: var(--secondory-color);
+    --dt-input-color: var(--primary-color);
+}
+
+
+.material-icons {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-header {
+    text-align: center;
+    border-bottom: solid 1px var(--dt-border-color);
+    background-color: var(--dt-background-color-container);
+    align-items: baseline;
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--dt-text-color);
+    width: 600px;
+    font-size: 24px;
+    margin: 0 auto;
+    border-radius: var(--dt-border-radius);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: var(--dt-padding);
+}
+
+
+/* .main-inicio{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+} */
+
+.main-body {
+    border-bottom: solid 1px var(--dt-border-color);
+    background-color: var(--dt-background-color-container);
+    width: 600px;
+    margin: 0 auto;
+    border-radius: var(--dt-border-radius);
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--dt-text-color);
+    padding: var(--dt-padding);
+}
+
+.main-body ul {
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+}
+
+.main-body ul li {
+    display: block;
+    margin: 0 var(--dt-padding-xs);
+    align-items: baseline;
+    padding: var(--dt-padding);
+}
+
+.datatable-container {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--dt-background-color-container);
+    border-radius: var(--dt-border-radius);
+    color: var(--dt-text-color);
+    width: 600px;
+    margin: 0 auto;
+    font-size: 12px;
+
+}
+
+.datatable-container .header-tools {
+    border-bottom: solid 1px var(--dt-border-color);
+    padding: var(--dt-padding);
+    display: flex;
+    align-items: baseline;
+}
+
+.datatable-container .header-tools .search {
+    width: 30%;
+}
+
+.datatable-container .header-tools .search .search-input {
+    width: 100%;
+    background-color: var(--dt-input-background-color);
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--dt-border-radius);
+    border: solid 1px var(--dt-border-color);
+    color: var(--dt-input-color);
+}
+
+.datatable-container .header-tools .tools {
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+}
+
+.datatable-container .header-tools .tools ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.datatable-container .header-tools .tools ul li {
+    display: inline-block;
+    margin: 0 var(--dt-padding-xs);
+    align-items: baseline;
+}
+
+.datatable-container .footer-tools {
+    padding: var(--dt-padding);
+    display: flex;
+    align-items: baseline;
+}
+
+.datatable-container .footer-tools .list-items {
+    width: 50%;
+}
+
+.datatable-container .footer-tools .pages {
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+}
+
+.datatable-container .footer-tools .pages ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+.datatable-container .footer-tools .pages ul li {
+    display: inline-block;
+    margin: 0 var(--dt-padding-xs);
+}
+
+.datatable-container .footer-tools .pages ul li button,
+.datatable-container .header-tools .tools ul li button {
+    color: var(--dt-text-color-button);
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: var(--dt-border-radius);
+    background: transparent;
+    cursor: pointer;
+}
+
+.datatable-container .footer-tools .pages ul li button:hover,
+.datatable-container .header-tools .tools ul li button:hover {
+    background: var(--dt-bg-active-butoon);
+    color: var(--dt-text-color-active-button);
+}
+
+.datatable-container .footer-tools .pages ul li span.active {
+    background-color: var(--dt-bg-color);
+    border-radius: var(--dt-border-radius);
+}
+
+.datatable-container .footer-tools .pages ul li button,
+.datatable-container .footer-tools .pages ul li span,
+.datatable-container .header-tools .tools ul li button,
+.datatable-container .datatable tbody tr td button {
+    padding: var(--dt-padding-s) var(--dt-padding);
+}
+
+.datatable-container .datatable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datatable-container .datatable,
+.datatable-container .datatable th,
+.datatable-container .datatable td {
+    padding: var(--dt-padding) var(--dt-padding);
+}
+
+.datatable-container .datatable th {
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: solid 1px var(--dt-border-color);
+}
+
+.datatable-container .datatable td {
+    text-align: center;
+    border-bottom: solid 1px var(--dt-border-color);
+}
+
+.datatable-container .datatable tbody tr:nth-child(even) {
+    background-color: var(--dt-even-row-color);
+}
+
+.datatable-container .datatable tbody tr:hover {
+    background-color: var(--dt-hover-cell-color);
+}
+
+.datatable-container .datatable tbody tr td button {
+    color: var(--dt-text-color-button);
+    width: 60%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: var(--dt-border-radius);
+    background: transparent;
+    cursor: pointer;
+}
+
+.datatable-container .datatable tbody tr td button:hover {
+    background: var(--secondory-color);
+    color: var(--dt-text-color-active-button);
+}
+
+.read-container {
+    padding: var(--dt-padding);
+    display: flex;
+    align-items: baseline;
+}
+
+.inputDescuento {
+    margin: 0 10px 0 10px;
+
+}
+
+
+.formaPago {
+    padding-inline-start: 100px;
+}
+
+select {
+    margin: 0 10px 0 10px;
+    padding: 2px 10px 2px 10px;
+    float: right;
+    text-align: center;
+}
