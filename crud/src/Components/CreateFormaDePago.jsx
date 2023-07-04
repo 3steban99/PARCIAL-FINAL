@@ -3,20 +3,19 @@ import axios from "axios"
 import { Link } from "react-router-dom";
 
 
-const client = axios.create({ baseURL: "http://localhost:3001/FormaDePago" })
+
 
 export default function CreateFormaDePago() {
   const [descripcion, setDescripcion] = useState("");
   const [interes, setInteres] = useState(0);
 
-  async function postData() {
-    try {
-      await client.post("/", { descripcion, interes })
-    }
-    catch (err) {
-      console.log(`Error guardar producto: ${err}`);
-    }
-  };
+  const postData = () => {
+    axios.post('http://localhost:3001/FormaDePago', {
+      descripcion,
+      interes
+    });
+  }
+
 
   return (
     <div>

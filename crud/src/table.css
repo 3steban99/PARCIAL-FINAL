@@ -1,35 +1,29 @@
-.field
-{
+.field {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.submit
-{
-   border: 0;
-   
-   font-family: 'Noto Sans', sans-serif;
-   border-radius: var(--dt-border-radius);
+.submit {
+    border: 0;
+
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: var(--dt-border-radius);
 }
 
-.return
-{
-   border: 0;
-   margin: 5px;
-   font-family: 'Noto Sans', sans-serif;
-   border-radius: var(--dt-border-radius);
+.return {
+    border: 0;
+    margin: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: var(--dt-border-radius);
 }
 
-.form
-{
-    border-bottom: solid 1px var(--dt-border-color );
+.form {
+    border-bottom: solid 1px var(--dt-border-color);
     background-color: var(--dt-background-color-container);
     width: 600px;
-    margin: 0 auto;
+    margin: 100px auto;
     border-radius: var(--dt-border-radius);
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
-    color: var(--dt-text-color );
+    color: var(--dt-text-color);
     padding: var(--dt-padding);
 }
-
-

@@ -1,17 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios"
 import { Link } from "react-router-dom";
+
 
 export default function CreateProducto() {
   const [nombre, setNombre] = useState("");
   const [precio, setPrecio] = useState(0);
+  const [dtProd, setDtProd] = useState([])
 
-  const postData = () => {
-    axios.post('http://localhost:3001/Productos', {
+  useEffect(() => {
+    axios.get("http://localhost:3001/Productos")
+    .then((response) => {
+      setDtProd(response.data)
+    })
+  }, []);
+
+
+  const  postData= () => {
+    const existingData = dtProd.find((item) => item.nombre === nombre)
+    if (existingData){
+      alert('Este producto ya esta cargado')
+    }
+    else{
+      if (nombre === ""){
+        alert('campos vacio')
+      }
+      else{
+        axios.post('http://localhost:3001/Productos', {
       nombre,
       precio
     });
+      }
+    }
   };
+
+
 
   return (
     <div>

@@ -44,6 +44,7 @@ app.get('/Productos', (req, res)=>{
     })
 })
 
+
 app.post('/Productos', (req, res)=>{
     req.getConnection((err, conn)=>{
         if(err) return res.send(err)

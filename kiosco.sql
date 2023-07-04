@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-02-2023 a las 16:47:52
+-- Tiempo de generación: 16-03-2023 a las 16:06:10
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.2.0
 
@@ -55,7 +55,13 @@ INSERT INTO `detallefactura` (`id`, `productoId`, `cantidad`, `monto`, `facturaI
 (71, 5, 2, 500, 38),
 (72, 4, 3, 690, 39),
 (73, 5, 4, 1000, 39),
-(74, 7, 1, 200, 39);
+(74, 7, 1, 200, 39),
+(75, 4, 2, 460, 40),
+(76, 7, 3, 600, 40),
+(77, 5, 1, 250, 40),
+(78, 4, 2, 460, 41),
+(79, 5, 1, 250, 41),
+(80, 4, 1, 230, 41);
 
 -- --------------------------------------------------------
 
@@ -84,7 +90,9 @@ INSERT INTO `factura` (`id`, `fecha`, `formaPagoId`, `descuento`) VALUES
 (36, '24/2/2023', 1, 10),
 (37, '24/2/2023', 3, 10),
 (38, '24/2/2023', 1, NULL),
-(39, '26/2/2023', 1, 15);
+(39, '26/2/2023', 1, 15),
+(40, '14/3/2023', 3, 15),
+(41, '16/3/2023', 1, 5);
 
 -- --------------------------------------------------------
 
@@ -157,7 +165,8 @@ ALTER TABLE `formadepago`
 -- Indices de la tabla `productos`
 --
 ALTER TABLE `productos`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `nombre` (`nombre`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -167,25 +176,25 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `detallefactura`
 --
 ALTER TABLE `detallefactura`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT de la tabla `factura`
 --
 ALTER TABLE `factura`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT de la tabla `formadepago`
 --
 ALTER TABLE `formadepago`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- Restricciones para tablas volcadas

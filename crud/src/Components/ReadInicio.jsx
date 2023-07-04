@@ -5,9 +5,7 @@ function ReadInicio(){
 
     return (
         <div className="main-inicio">
-            <div className="main-header">
-                <h2>MaxiKiosco</h2>
-            </div>
+            
             <div class="main-body" >
                 <ul>
                     <li>

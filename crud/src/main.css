@@ -28,7 +28,7 @@
 
 
 .material-icons {
-    font-size: 16px;
+    font-size: 22px;
     cursor: pointer;
 }
 
@@ -39,11 +39,10 @@
     align-items: baseline;
     font-family: 'Noto Sans', sans-serif;
     color: var(--dt-text-color);
-    width: 600px;
+    width: 100%;
     font-size: 24px;
     margin: 0 auto;
     border-radius: var(--dt-border-radius);
-    flex-wrap: wrap;
     justify-content: center;
     padding: var(--dt-padding);
 }
@@ -61,12 +60,13 @@
     border-bottom: solid 1px var(--dt-border-color);
     background-color: var(--dt-background-color-container);
     width: 600px;
-    margin: 0 auto;
-    border-radius: var(--dt-border-radius);
+    height: auto;
+    margin: 100px auto;
+    border-radius: 50px;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     color: var(--dt-text-color);
-    padding: var(--dt-padding);
+    padding: 80px 30px;
 }
 
 .main-body ul {
@@ -80,6 +80,7 @@
     margin: 0 var(--dt-padding-xs);
     align-items: baseline;
     padding: var(--dt-padding);
+    font-size: 22px;
 }
 
 .datatable-container {
@@ -88,7 +89,7 @@
     border-radius: var(--dt-border-radius);
     color: var(--dt-text-color);
     width: 600px;
-    margin: 0 auto;
+    margin: 100px auto;
     font-size: 12px;
 
 }

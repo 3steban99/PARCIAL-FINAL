@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# MAXI KIOSCO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hola¡ este es un **crud** de un kiosco creado en **react.js** en la cual era un parcial grupal de la materia Programacion 2 en la carrera Tecnico Superior en Programacion en la UTN (Universidad Tecnologica Nacional). El proyecto cumple con funciones basicas de un crud: CREATE, DELETE, UPDATE y tambien para mostrar con GET.
+![enter image description here](https://i.ibb.co/h7q7Y5Z/maxikiosco.png)
 
-## Available Scripts
+Este proyecto fue grupal, por lo que cada integrante tuvo una tarea especifica, a mi me toco el funcionamiento del crud: El read de **productos**, tambien como la creacion, modificacion y eliminacion de la misma. Tambien con el funcionamiento de **Forma de Pagos**. Este parcial se califico mas en el funcionamiento que en lo visual.
 
-In the project directory, you can run:
+# INSTALACION
 
-### `npm start`
+ 1. Clona el repositorio en tu máquina **local**:
+	 `git clone https://github.com/3steban99/PARCIAL-FINAL.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+	`cd PARCIAL-FINAL crud`
+	
+	`npm install`
+	
+	`npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# FUNCIONAMIENTO DEL PROYECTO
+El proyecto cuenta con varias funciones, en la pantalla principal contamos con 4 botones:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 1. VENTAS: 
+	 En esta ventana contamos con dos contenedores, en la cual uno es donde elegimos el producto para agregar, y el otro es para mostrar todos los productos agregados para facturar, tambien hay para poner descuento y elegir el modo de pago.
+![enter image description here](https://i.ibb.co/bK8qJS7/crud-Ventas.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. PRODUCTOS:
+	En esta ventana contamos con la visualizacion de los productos, por lo que podemos crear uno nuevo, modificar o eliminar los productos.
+	![enter image description here](https://i.ibb.co/c1DD79p/readProd.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![enter image description here](https://i.ibb.co/2FHm60z/crear-Prod.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. FACTURAS:
+	En esta ventana contamos con el read de facturas y podemos ver el detalle de cada una.
+	![enter image description here](https://i.ibb.co/vPZ8Smh/readFact.png)
 
-### `npm run eject`
+5. FORMA DE PAGO:
+	En esta ventana contamos con la visualizacion de las formas de pagos, tambien para modificar, crear o borrar.
+	![enter image description here](https://i.ibb.co/CnxLcM6/read-Forma.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# CONTACTO
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo en [barrionuevo99@outlook.com](mailto:barrionuevo99@outlook.com).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Agradecimientos

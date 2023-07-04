@@ -10,12 +10,14 @@ import CreateFormaDePago from "./Components/CreateFormaDePago"
 import UpdateProducto from "./Components/UpdateProducto";
 import UpdateFormaDePago from "./Components/UpdateFormaDePago"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./Components/Header";
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route exact path="/" element={<ReadInicio />} />
         </Routes>
