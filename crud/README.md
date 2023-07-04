@@ -1,6 +1,8 @@
 # MAXI KIOSCO
 
 Hola¡ este es un **crud** de un kiosco creado en **react.js** en la cual era un parcial grupal de la materia Programacion 2 en la carrera Tecnico Superior en Programacion en la UTN (Universidad Tecnologica Nacional). El proyecto cumple con funciones basicas de un crud: CREATE, DELETE, UPDATE y tambien para mostrar con GET.
+
+
 ![enter image description here](https://i.ibb.co/h7q7Y5Z/maxikiosco.png)
 
 Este proyecto fue grupal, por lo que cada integrante tuvo una tarea especifica, a mi me toco el funcionamiento del crud: El read de **productos**, tambien como la creacion, modificacion y eliminacion de la misma. Tambien con el funcionamiento de **Forma de Pagos**. Este parcial se califico mas en el funcionamiento que en lo visual.
